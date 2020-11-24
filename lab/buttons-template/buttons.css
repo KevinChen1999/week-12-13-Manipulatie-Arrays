@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.container{
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	height: 600px;
+	border: 1px solid black;
+	
+}
+.container img {
+	background-image: url("images/0bg.jpg");
+}
+#image{
+	
+
+}
+.container #button_1{
+	position: absolute;
+	background-color: green;
+	color: white;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+ 	padding: 12px 24px;
+	
+}
+
+.container #button_2{
+	position: absolute;
+	background-color: green;
+	color: white;
+	top: 0;
+	left: 70px;
+	font-size: 16px;
+ 	padding: 12px 24px;
+}
+.container #button_3{
+	position: absolute;
+	background-color: green;
+	color: white;
+	top: 0;
+	left: 141px;
+	font-size: 16px;
+ 	padding: 12px 24px;
+}
+#trioNumber{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
